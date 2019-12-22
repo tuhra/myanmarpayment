@@ -1,0 +1,96 @@
+$base-font: SF Pro Display, Helvetica, Arial, sans-serif;
+
+$color-primary:#0090D5;
+$color-secondary:#FFE700;
+$color-tertiary:#1FCB6D;
+$color-grey:#E1E0E4;
+
+
+@import "mixins";
+@import "common";
+@import "intlTelInput";
+.text-center {
+    text-align: center;
+}
+.wrap-sm {
+    max-width:600px;
+    margin:0 auto;
+    padding:0 40px;
+}
+.wrap {
+    max-width: 1440px;
+    padding:0 40px;
+    margin:0 auto;
+}
+
+.card {
+    background:#fff;
+    border-radius:0.3em;
+    padding:50px 30px 30px;
+    margin:20px auto;
+    position: relative;
+    &:hover, &:active {
+        box-shadow: 0px 5px 60px 0px rgba(0,0,0,0.3);
+        z-index: 1;
+    }
+    transition: box-shadow 0.3s ease-out;
+    h1, h2, h3 {
+        margin:0;
+    }
+}
+.logo {
+    max-width:40%;
+    display: inline-block;
+    margin-bottom:50px;
+    max-height:80%;
+}
+.card-option {
+    position:absolute;
+    right:0;
+    top:0;
+    text-align: right;
+    padding:50px 30px 30px;
+    font-size:1.5em;
+    .btn {
+        margin-right:-30px;
+    }
+}
+.card-label {
+    background-color:$color-tertiary;
+    padding:5px 30px;
+    top:0;
+    left:0;
+    position: absolute;
+    color:#fff;
+    border-radius: 0.3em 0 0 0;
+}
+.card-title {
+    font-size:30px;
+}
+.btn, [class*="btn-"] {
+    padding:15px 30px;
+}
+.btn-clear {
+    color:$color-primary;
+}
+.nav-option {
+    position: absolute;
+    top:0;
+    right:0;
+    padding:30px;
+}
+@include respond(medium) {
+    .logo {
+        max-height:80px;
+    }
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: center;
+    }
+    .card {
+        min-width: 340px;
+        margin:20px 10px;
+    }
+}

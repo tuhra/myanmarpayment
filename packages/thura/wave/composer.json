@@ -1,0 +1,14 @@
+{
+    "name": "thura/wave",
+    "description": "wave payment package",
+    "type": "laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thura",
+            "email": "mgaungthurawin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

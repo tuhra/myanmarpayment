@@ -1,0 +1,24 @@
+#full {
+    display: none;
+}
+button[type="submit"], .btn-submit {
+    /*width: 48%;
+    height: 50px;*/
+}
+.btn {
+    float: right;
+    padding-top: 1px;
+    width: 48%;
+    height: 50px;
+}
+.border {
+    border-style: dashed;
+    padding: 10px;
+}
+.header {
+    text-align: center;
+    font-size: 14px;
+}
+.card {
+    width: 320px;
+}

@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS tbl_user_source;
+create table tbl_user_source
+(
+	id bigint auto_increment
+		primary key,
+	user_id bigint null,
+	src varchar(255) null,
+	created_at timestamp null,
+	updated_at timestamp null
+);
+

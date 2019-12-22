@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2968 384 13 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="iconmonstr-facebook-1" class="cls-1" d="M9.25,8.667H6V13H9.25V26h5.417V13h3.946L19,8.667H14.667V6.861c0-1.035.208-1.444,1.208-1.444H19V0H14.875C10.979,0,9.25,1.715,9.25,5Z" transform="translate(2962 384)"/>
+</svg>

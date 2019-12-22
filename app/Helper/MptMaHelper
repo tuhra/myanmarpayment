@@ -1,0 +1,40 @@
+<?php
+
+namespace App\Helper;
+
+use App;
+use Session;
+use App\Helper\SmsHelper;
+use App\Models\MptSmsLogModel;
+use App\Models\MptPaymentLogModel;
+use App\Models\MoSmsLogModel;
+
+class MptMaHelper 
+{
+
+	public function maoptsms($msisdn) {
+		return "here";
+		// $url = 'http://matestcnt.mpt.com.mm/API/CGRequest?';
+		// $queryparamter = 'MSISDN=959403488850&productID=9320&pName=GoGames&pPrice=99&pVal=1&CpId=MIAKI&CpPwd=miaki@123&CpName=MIAKI&reqMode=PIN&reqType=SUBSCRIPTION&ismID=17&transID=3032340077&sRenewalPrice=99&sRenewalValidity=1&serviceType=T_MIA_GOG_SUB_D&planId=T_MIA_GOG_SUB_D_99&request_locale=en';
+		// $otpurl = $url . $queryparamter;
+		// return $otpurl;
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

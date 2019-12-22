@@ -1,0 +1,22 @@
+.active {
+        color: green;
+        font-size: 20px;
+    }
+
+.inactive {
+    color: red;
+    font-size: 20px;
+}
+
+.valid {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+hr { 
+    width: 90%;
+}
+
+button[type="submit"] {
+    min-width: auto;
+}

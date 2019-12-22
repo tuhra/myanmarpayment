@@ -1,0 +1,81 @@
+@font-face {
+	font-family: 'myanmar3';
+	src: 	url('./fonts/myanmar3.eot');
+	src: 	local('Myanmar3'),  url('./fonts/myanmar3.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'myanmarCensus';
+	src: 	url('./fonts/myanmarCensus.eot');
+	src: 	local('Myanmar Census'),
+			url('./fonts/myanmarCensus.ttf') format('truetype'),
+			url('./fonts/myanmarCensus.woff') format('woff');
+}
+@font-face {
+	font-family: 'unicode';
+	src: 	url('./fonts/ourunicode.eot');
+	src: 	local('Ours-Unicode'),  url('./fonts/ourunicode.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'padauk';
+	src: 	url('./fonts/padauk.eot');
+	src: 	local('Padauk'),  url('./fonts/padauk.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'yunghkio';
+	src: 	url('./fonts/yunghkio.eot');
+	src: 	local('Yunghkio'),  url('./fonts/yunghkio.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'myanmar3';
+	src: 	url('./fonts/myanmar3.eot');
+	src: 	local('Myanmar3'),  url('./fonts/myanmar3.ttf') format('truetype');
+}
+
+/*-- for Myanmar 3 Font ---*/
+.mm-myanmar3{
+	font-family: myanmar3;
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*-- for Myanmar Census Font ---*/
+.mm-myanmarCensus{
+	font-family: myanmarCensus;
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*-- for Myanmar unicode Font ---*/
+.mm-unicode{
+	font-family: unicode;
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*-- for padauk unicode Font ---*/
+.mm-padauk{
+	font-family: padauk;
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*-- for yunghkio unicode Font ---*/
+.mm-yunghkio{
+	font-family: yunghkio;
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*-- for zawgyione Font ---*/
+.mm-zawgyione{
+	font-family: myanmar3;
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*-- for Unicode Font ---*/
+.unicode{
+	font-family: unicode, myanmarCensus, padauk, yunghkio;
+	font-weight: normal;
+	font-style: normal;
+}

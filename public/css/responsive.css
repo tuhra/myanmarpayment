@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 29, 2018, 6:31:45 PM
+    Author     : Fahad Howlader
+*/
+
+    .operator-div{
+        width: 40%;
+        float: left;
+        margin-left: 50px;
+    }
+    .operator-div input{
+        height: 30px;
+        margin-left: 30px;
+        position: relative;
+        top: 33px;
+    }
+
+    .operator-div img{
+        margin-bottom: 50px;
+    }
+
+
+/*Responsive CSS*/
+
+    @media (max-width: 650px) {
+        .operator-div{
+            /*background: red;*/
+            width: 34%;
+            float: left;
+            margin-left: 50px;
+        }
+        .operator-div input{
+            height: 30px;
+            margin-left: 30px;
+            position: relative;
+            top: 33px;
+        }
+
+        .operator-div img{
+            margin-bottom: 50px;
+        }
+
+        .f-redio{
+            left: 15px;
+        }
+
+    }
+    @media (max-width: 467px) {
+        .operator-div{            
+            width: 30%;
+            float: left;
+            padding-left: 12px !important;
+            margin-left: 29px !important;
+        }
+        .operator-div input{
+            height: 30px;
+            margin-left: 30px;
+            position: relative;
+            top: 33px;
+            left: 30px;
+        }
+
+        .operator-div img{
+            margin-bottom: 50px;
+        }
+
+
+    }
+    @media (max-width: 399px) {
+        .operator-div{            
+            width: 56%;
+            height: 100px;
+            float: left;
+            margin-left: 50px;
+        }
+        .operator-div input{
+            height: 30px;
+            margin-left: 30px;
+            position: relative;
+            top: 33px;
+            /*left: 15px*/
+        }
+
+        .operator-div img{
+            margin-bottom: 50px;
+        }
+        .s-redio{
+            left: 45px;
+        }
+        button[type="submit"] {           
+            min-width: 175px !important;
+        }
+
+    }
+    @media (max-width: 302px) {
+        .operator-div{                       
+            float: left;
+            margin-left: 50px;
+        }
+        .operator-div input{
+            height: 30px;
+            margin-left: 30px;
+            position: relative;
+            top: 33px;
+        }
+
+        .operator-div img{
+            margin-bottom: 50px;
+        }
+        .f-redio{
+            left: 30px;
+        }
+        button[type="submit"] {           
+            min-width: 175px !important;
+        }
+
+    }
+
+   
